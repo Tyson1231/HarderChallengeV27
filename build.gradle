@@ -37,16 +37,7 @@ dependencies {
 	compileOnly "com.google.code.findbugs:jsr305:3.0.2"
 }
 
-sourceSets {
-	client {
-		java {
-			exclude "baritone/process/elytra/**"
-			exclude "baritone/pathing/elytra/**"
-			exclude "baritone/elytra/**"
-			exclude "**/*Elytra*.java"
-		}
-	}
-}
+
 
 processResources {
 	def version = project.version

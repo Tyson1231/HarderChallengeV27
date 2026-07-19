@@ -26,7 +26,7 @@ import baritone.utils.BaritoneProcessHelper;
 import net.minecraft.ChatFormatting;
 
 /**
- * As set by ExampleBaritoneControl or something idk
+ * Configured by an external controller
  *
  * @author leijurv
  */
