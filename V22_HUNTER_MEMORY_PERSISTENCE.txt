@@ -1,0 +1,19 @@
+HARDER CHALLENGE V22 - HUNTER MEMORY & PERSISTENCE
+
+Changes:
+- Hunter max health changed from 200 HP to 20 HP (normal player health).
+- Hunter still uses armor/equipment for durability rather than inflated health.
+- Added location memory:
+  * Remembers recent places where it saw the player.
+  * Searches the last known position after losing line of sight.
+  * Can revisit older remembered locations instead of tracking exact coordinates through walls.
+- Strengthened persistence:
+  * setPersistenceRequired remains the primary anti-despawn protection.
+  * Added a fallback watchdog that recreates the Hunter if the entity vanishes unexpectedly.
+  * Confirmed Hunter death still ends the encounter normally.
+- Replaced the chat warning with a centered subtitle shown to every connected player:
+  YOU ARE BEING HUNTED.
+- No sound effect was added.
+
+WARNING:
+This build was not compile-tested because the sandbox could not download Gradle 9.5.1.

@@ -1,0 +1,19 @@
+HARDER CHALLENGE V17 - BLACK HOLE EVENT
+
+- Added BLACK_HOLE as a world event beginning at Stage 6.
+- It has a 2.5% selection chance after a world event has already triggered.
+- One fixed black hole forms 68-82 blocks from each player.
+- It does not chase or teleport toward the player.
+- Event duration: 60 seconds.
+- Gravity radius grows continuously from 24 to 112 blocks.
+- Deadly core grows continuously from 2.5 to 9 blocks.
+- Pull force becomes stronger as the event progresses and as entities get closer.
+- Players, mobs, and dropped items are pulled in.
+- Dropped items are pulled especially hard.
+- The black hole has a dark particle core, rotating accretion ring, and inward particle streaks.
+- The action bar reports distance, current gravity radius, and remaining time.
+- Entering the core causes repeated heavy damage; non-player entities are consumed.
+
+BUILD NOTE:
+The Gradle wrapper could not be downloaded in the editing environment because outbound
+network access is unavailable. The project therefore has not been compile-tested here.

@@ -1,0 +1,8 @@
+Harder Challenge Tornado V4
+
+- Tornado now locks onto a player and continuously steers toward them every tick.
+- Tornado movement speed increases during the event.
+- Terrain interaction now samples blocks directly beneath and ahead of the funnel.
+- Eligible blocks are converted into visible falling-block debris and thrown into the vortex.
+- Strong blocks and bedrock are protected.
+- Skeleton, stray, and bogged mobs are periodically guaranteed a bow through AbstractSkeleton.

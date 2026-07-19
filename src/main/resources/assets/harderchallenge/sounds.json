@@ -1,0 +1,11 @@
+{
+  "cinematic_horn": {
+    "subtitle": "Cinematic horn",
+    "sounds": [
+      {
+        "name": "harderchallenge:cinematic_horn",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+HARDER CHALLENGE V3 FIXES
+
+1. NETHER TORNADO
+- Tornado no longer chooses a random coordinate that may be buried in netherrack.
+- It searches up to 48 positions around the target player.
+- A position is accepted only when it has a solid floor and at least 12 open blocks above it.
+- It falls back near the player only if that column is also open.
+
+2. METEOR REBUILD
+- Impacts occur every 4 seconds rather than using one normal TNT every 6 seconds.
+- Nether targets are found relative to the player's current cave instead of the roof heightmap.
+- Each impact cuts a wide radius-6 bowl crater.
+- Crater floors are lined with magma blocks, with occasional lava in the center.
+- Larger flame, smoke, lava and explosion-emitter effects were added.
+- Louder explosion/thunder audio and a center TNT blast add knockback/entity damage.
+
+3. RED BLOOD-MOON SKY
+- Added BloodMoonSkyMixin on the client.
+- EventDirector pins the Blood Moon to midnight and thunder during the event.
+- The mixin changes ClientLevel's actual returned sky color to deep pulsing red.
+- fabric.mod.json now loads the client mixin configuration.
+
+BUILD NOTE
+The code could not be compiled in this sandbox because Gradle 9.5.1 could not be downloaded
+(no network/DNS access). Import the project in IntelliJ with internet access and run the Gradle build.

@@ -1,0 +1,19 @@
+Harder Challenge - Tornado V1
+
+Command:
+  /hc event tornado
+  /hc event stop
+
+Implemented:
+- 60-second tornado world event
+- Spawns roughly 42 blocks from a player
+- Moving/retargeting tornado path
+- Large rotating funnel made from vanilla particles
+- Ground dust and debris effects
+- Pulls, spins, lifts, and occasionally throws entities
+- Light terrain damage focused on trees and fragile blocks
+- Thunder/rain ambience
+- Director AI integration beginning at Stage 5
+
+Build note:
+The project could not be compiled in the assistant environment because the included Gradle wrapper attempted to download Gradle 9.5.1 and internet access was unavailable. Open the project in IntelliJ and run the Gradle build locally. If IntelliJ reports a red method/import, send a screenshot of the exact error and line.

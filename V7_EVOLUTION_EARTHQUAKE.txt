@@ -1,0 +1,24 @@
+V7 CHANGES
+
+EVOLUTION / MUTANTS
+- Added native mutant variants; no external mutant-creatures mod is required.
+- Mutant Zombies unlock at Stage 3.
+- Mutant Skeletons unlock at Stage 5.
+- Mutant Creepers unlock at Stage 7.
+- Mutant Spiders unlock at Stage 9.
+- Each newly encountered eligible mob rolls once for mutation.
+- Mutation chance rises at later stages, capped at 24%.
+- Mutants are larger, named, tougher, faster, harder-hitting, resist knockback,
+  heal to their new maximum health, and emit soul-fire particles.
+
+EARTHQUAKE
+- First 4 seconds are warning-only: rumbling, dust, and light shaking.
+- Seconds 4-8 intensify the shake and rattle surface blocks.
+- Fissures begin only after 8 seconds.
+- Cracks propagate outward in short segments instead of instantly removing the
+  ground directly underneath the player.
+- Added layered low-pitch rumble, movement jitter, rubble, dust and rare deep lava.
+
+TEST COMMANDS
+/hc stage 9
+/hc event earthquake

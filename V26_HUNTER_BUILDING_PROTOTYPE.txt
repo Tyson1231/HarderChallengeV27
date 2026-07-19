@@ -1,0 +1,12 @@
+V26 HUNTER BUILDING PROTOTYPE
+
+- Fixed stalking follow range so vanilla Husk AI cannot track the player from long range.
+- Fixed attack phase follow range restoration (V25 accidentally used the stalking range).
+- Removed the normal stalking stuck-teleport near the player's live position.
+- During stalking, a failed path is abandoned and a new cover/memory route is selected.
+- Added first building behavior during ATTACKING only:
+  * After being genuinely stuck, the Hunter can place cobblestone beneath itself to climb toward a higher player.
+  * It can place a cobblestone support to cross the first block of a gap.
+  * Placement is rate-limited and respects world border, fluids, and replaceable blocks.
+
+This is the first building foundation, not yet full player-like construction.

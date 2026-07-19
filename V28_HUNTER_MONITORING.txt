@@ -1,0 +1,20 @@
+V28 Hunter Monitoring Tools
+
+Commands:
+- /hc hunter debug
+  Prints the Hunter's coordinates, distance, phase, current chunk, forced chunk area, movement status, and stuck timer.
+
+- /hc hunter monitor
+  Toggles a live action-bar monitor containing the same information.
+
+- /hc hunter spectate
+  Switches the player to spectator mode and attaches the camera to the Hunter.
+  The Hunter pauses while its hunted player is using this developer camera.
+
+- /hc hunter return
+  Detaches the camera and restores the player's previous game mode, dimension, position, and rotation.
+
+- /hc hunter outline [on|off]
+  Existing outline controls remain available.
+
+Chunk-position packing was also corrected to use ChunkPos.pack(x, z) for this project's mappings.

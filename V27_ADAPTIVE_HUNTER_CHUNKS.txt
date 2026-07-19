@@ -1,0 +1,13 @@
+V27 - ADAPTIVE HUNTER CHUNK SIMULATION
+
+- Hunter now keeps its own moving forced-chunk area so it can remain active beyond the player's simulation distance.
+- Dynamic sizes:
+  * 1x1 while idle/waiting
+  * 3x3 while navigating, searching, hiding, or attacking
+  * 5x5 maximum while stuck, building, or recovering from complex movement
+- Expansion happens immediately.
+- Shrinking waits 5 seconds to prevent rapid load/unload thrashing.
+- Old chunks are released as the Hunter moves.
+- All forced chunks are released when the Hunter encounter ends.
+
+IMPORTANT: This build was not compile-tested in the sandbox.

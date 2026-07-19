@@ -1,0 +1,7 @@
+V25 Hunter stalking target fix
+
+- Prevents the vanilla Husk target selector from overriding custom stalking behavior.
+- FOLLOW_RANGE is restricted during stalking so the Husk cannot automatically acquire and chase the player.
+- Any vanilla target/navigation acquired during an entity tick is cleared before custom cover/search logic runs.
+- Full follow range is restored only when the Hunter enters the attacking phase.
+- Watchdog replacements restore the correct follow range for the current phase.

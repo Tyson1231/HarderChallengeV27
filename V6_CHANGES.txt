@@ -1,0 +1,16 @@
+Harder Challenge V6 changes
+
+Meteor shower:
+- Meteors spawn every 2.5 seconds instead of every 4 seconds.
+- Meteors begin up to 105 blocks above the impact point.
+- Flight time increased to 72 ticks (3.6 seconds), giving players time to see and dodge them.
+- Impact targets are selected 8-24 blocks from the player.
+
+Tornado:
+- Terrain pickup runs twice as often.
+- Each pickup pass attempts 10-20 blocks instead of 4-9.
+- Pickup area widened and tougher normal blocks can be lifted.
+- A player held inside the core above ground for 10 continuous seconds is flung outward and upward.
+
+Build note:
+- Static edits completed, but Gradle compilation could not run because this environment could not download Gradle 9.5.1.

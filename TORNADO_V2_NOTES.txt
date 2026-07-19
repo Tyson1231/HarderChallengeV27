@@ -1,0 +1,29 @@
+TORNADO V2 UPDATE
+=================
+
+1. Progressive tornado pull
+- The tornado now ramps from 70% force at touchdown to 195% force near the end.
+- The ramp uses a smooth curve rather than sudden jumps.
+- Pull radius grows from 30 blocks to 40 blocks.
+- Spin, lift, core ejection speed, and core damage also intensify gradually.
+
+2. Nether support
+- Tornado particles, sounds, physics, and terrain damage now run in the tornado's actual dimension.
+- Ground tracking no longer uses a top-of-world heightmap, preventing Nether tornadoes from snapping to the bedrock roof.
+- Retargeting only selects players in the tornado's current dimension.
+
+3. Other Nether-capable world events
+- Earthquake: already dimension-native and remains enabled.
+- Ashfall: particles work in every dimension; rain haze is only requested where vanilla weather exists.
+- Lightning Storm: lightning is now summoned in each player's actual dimension.
+- Meteor Shower: particles and TNT are now created in each player's actual dimension.
+- Tornado: fully dimension-aware.
+- Blood Moon: remains primarily an Overworld sky event; its hostile mob effects can still occur elsewhere.
+
+Test commands:
+/hc event tornado
+/hc event earthquake
+/hc event ashfall
+/hc event lightning
+/hc event meteor
+/hc event stop

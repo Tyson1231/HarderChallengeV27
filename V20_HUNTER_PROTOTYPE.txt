@@ -1,0 +1,27 @@
+HARDER CHALLENGE V20 - HUNTER PROTOTYPE
+
+Command:
+/hc hunter spawn
+/hc hunter stop
+/hc hunter status
+
+Implemented:
+- One silent red message: YOU ARE BEING HUNTED.
+- No Hunter sounds.
+- 60-90 second stalking phase.
+- Spawns 120-180 blocks away.
+- Tries to remain 35-70 blocks away while stalking.
+- Stops when the target is directly looking at it with line of sight.
+- Attacks early if approached within 15 blocks or damaged.
+- Stage clock, mutations, and normal event ticking freeze for the entire encounter.
+- Any active event is stopped before the Hunter starts.
+- Encounter ends when the Hunter or target player dies.
+- 200 health, high armor, netherite gear, strong melee stats.
+
+Prototype limitation:
+- Uses a silent Husk body for this first gameplay test.
+- The player-shaped clone renderer, the user's skin, bow switching, healing,
+  advanced SmartBrainLib behaviours, and rare natural spawning come after the
+  stalking/lock system is confirmed stable.
+
+This build was not compile-verified in the assistant sandbox.

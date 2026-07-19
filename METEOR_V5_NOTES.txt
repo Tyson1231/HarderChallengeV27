@@ -1,0 +1,20 @@
+METEOR V5 - MAGMA BALL
+
+Added:
+- New MeteorShower.java
+- Visible 3-D meteor made from 33 magma block-display entities
+- Diagonal fall path from high in the sky
+- Flame, smoke, lava trail, and incoming sound
+- Impact crater lined with magma and occasional lava
+- Explosion damage, knockback, particles, and thunder sound
+- Supports Overworld and Nether surface targeting
+- Meteors are automatically cleaned up when the event ends
+
+Test in a world with cheats enabled:
+/harderchallenge event meteor
+
+Stop the event:
+/harderchallenge event stop
+
+NOTE:
+This environment cannot download Gradle 9.5.1, so the project could not be compile-tested here.

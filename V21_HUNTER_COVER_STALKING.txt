@@ -1,0 +1,14 @@
+HARDER CHALLENGE V21 - HUNTER COVER STALKING
+
+Changes:
+- Stalking duration increased from 60-90 seconds to 6-10 minutes.
+- Hunter now searches up to 28 nearby terrain positions for real line-of-sight cover.
+- If the player sees the Hunter, it attempts to move behind solid blocks instead of freezing in the open.
+- Hidden positions behind the player's facing direction are prioritized.
+- Hunter keeps moving toward selected cover until it reaches it or the cover stops blocking sight.
+- Existing event/stage lock remains active throughout stalking and combat.
+
+Testing command:
+/hc hunter spawn
+
+NOTE: This build was not compile-tested in the sandbox. Minecraft 26.2 mapping differences may require a small API-name correction.
